@@ -22,7 +22,7 @@
         "drupal/config_installer": "^1.0",
         "drupal/config_delete": "^1.7",
         "drupal/console": "^1",
-        "drupal/core": "8.6.16.",
+        "drupal/core": "^8",
         "drupal/link_css": "1.x-dev",
         "drupal/eck": "1.x-dev",
         "drupal/entity_usage": "^2.0",
@@ -110,7 +110,7 @@
         "enable-patching": true,
         "build-env": {
             "install-cms": [
-                "drush site-install standard --account-mail={account-mail} --account-name={account-name} --account-pass={account-pass} --site-mail={site-mail} --site-name={site-name} --yes",
+                "drush site-install social --account-mail={account-mail} --account-name={account-name} --account-pass={account-pass} --site-mail={site-mail} --site-name={site-name} --yes",
                 "drush pm-enable config_direct_save simple_block --yes",
                 "drush pm-uninstall block_content --yes"
             ],
