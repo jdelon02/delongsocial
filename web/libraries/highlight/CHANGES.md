@@ -6,6 +6,42 @@ New styles:
 
 Improvements:
 
+## Version 9.15.9
+
+Improvements:
+ - fix(AutoHotkey): order and extended highlighting (#1579)
+ - fix(Go): correctly highlight hex numbers, rather than stopping at last 'd' or 'f'. (#2060)
+ - fix(Mathematica): Improvements to language (#2065)
+ - fix(Node): Adds SCSS build (#2079)
+ - fix(Rust): update keywords (#2052)
+ - fix(Stata): Added keywords for the meta-analysis suite introduced in Stata 16 (#2081)
+ - fix(Bash): escape double quotes (#2048)
+
+## Version 9.15.8
+
+New languages:
+  none.
+New styles:
+  none.
+Improvements:
+  - fix(bash): revert escaped double quotes - broke Firefox/Safari.
+
+## Version 9.15.7
+New languages:
+  none.
+New styles:
+  none.
+Improvements:
+ - fix(powershell): Add cmdlets (#2022)
+ - fix(Bash): escaped double quotes (#2041)
+ - fix(c++): add aliases 'hh', 'hxx', 'cxx' (#2017)
+ - fix(ini/toml): Support comments on the same line. (#2039)
+ - fix(JSX): not rendering well in a function without parentheses. (#2024)
+ - fix(LiveCode): language definition update (#2021)
+ - fix(markdown): indented lists (#2004)
+ - fix(styles/school-book): don't style all the pre, use .hljs instead (#2034)
+ - fix(JSX): Modify JSX tag detection to use XML language regex in place of simplistic \w+
+
 ## Version 9.15.6
 New languages:
     none.
